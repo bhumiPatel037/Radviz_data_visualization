@@ -1,0 +1,38 @@
+Assignment 1: 
+
+Implemented Features :
+
+1. Data is coming from backend.
+
+2. By default 'Iris' dataset will show first in visualization.
+
+3. user can select different file from selection box.Data will be come from backend according to selected file. I used my assignmnet-2 Radviz   implementation to show Radviz visualization.
+    
+    Available Data files : Irisdataset,winequality-red.csv,winequality-White.csv
+
+4. User can selected from radio button to choose type of colour mode : class based color or cluster based colour.
+
+5. On hovering instance Heatmap will come in both colour mode.
+
+6. User can select Anchors list from available listed checkbox.
+
+7. In cluster mode, User can pass parameters (No of cluster, max_iter) values from selection box and click of below given button to get new cluster according to given parameters.
+
+8. I have also implemented bonus question, To show Radviz implementation of Assignmnet-1 dataset. Just click on given link on top 'Go to assignment1'
+    
+    - By default I took 'work-class' categorial column as target column.
+    - User can select different Categorial value from given selection box.
+    - User can also select list of Anchor from given checkbox options.
+9. I have Implemented all functionality including bonus question, I have used flask library to implement backend.
+
+ ****************************** Special note ***************************************************************
+
+ - Sometime Graph is not shown, and give error like 'getData()' function is not found, I found sometime this issue was happend due to cache memory.
+    Please clear cache memory once if you face this issue while marking my assignment.
+
+Folder Structure:
+
+Index.js: Static/index.js
+Index.html:templates/index.html
+
+***********************************************************************************************************
